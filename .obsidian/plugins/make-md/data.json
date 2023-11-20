@@ -45,7 +45,11 @@
     "//Spaces",
     "//Spaces/Spaces/Home",
     "//Spaces",
-    "//Project"
+    "//Project",
+    "//Spaces/Spaces/Home",
+    "//Spaces",
+    "//Computer Vision",
+    "//Computer Vision/Computer Vision/Classification"
   ],
   "expandFolderOnClick": true,
   "menuTriggerChar": "/",

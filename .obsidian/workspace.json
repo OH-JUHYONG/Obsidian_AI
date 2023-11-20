@@ -11,12 +11,8 @@
             "id": "1d88d1506c208a4b",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "README.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           }
         ]
@@ -77,7 +73,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 262.5
+    "width": 262.5,
+    "collapsed": true
   },
   "right": {
     "id": "418eea222befbecd",
@@ -93,7 +90,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +106,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -132,9 +127,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "README.md"
-              }
+              "state": {}
             }
           },
           {
@@ -166,42 +159,44 @@
   },
   "active": "1d88d1506c208a4b",
   "lastOpenFiles": [
-    "Attached file/Pasted image 20231120211741.png",
-    "Computer Vision/Classification/Translation Invariance.md",
+    "Computer Vision/Preprocessing/JSON.md",
+    "Computer Vision/Computer Vision.md",
+    "Project/Segmentation/Custom_Mask R-CNN.md",
     "README.md",
-    "().md",
-    "Computer.md",
+    "Attached file/Pasted image 20231121040546.png",
+    "Computer Vision/Paper/NeRF.md",
+    "Machine Learning/Unsupervised Learning/Generative Model.md",
+    "Machine Learning/Supervised Learning/Ensemble.md",
+    "Computer Vision/Neural Network/ResNet.md",
+    "Computer Vision/Neural Network/Neural Network.md",
+    "Computer Vision/Neural Network/Backbone Network.md",
+    "Computer Vision/Neural Network/CNN/Pooling.md",
+    "Computer Vision/Neural Network/CNN/FC layer.md",
+    "Computer Vision/Neural Network/CNN/CNN.md",
+    "Computer Vision/Computer Graphics/3D Reconstruction.md",
+    "Computer Vision/Classification/Translation Invariance.md",
+    "Project/Evaluation Metrics.md",
+    "Computer Vision/Object Detection/IoU.md",
+    "Project/Data Preprocessing.md",
+    "Project/Default Setting.md",
+    "Project/Hyperparameter.md",
+    "Project/Project.md",
+    "Project/무제 폴더",
+    "Project/무제 폴더",
+    "Computer Vision/Paper/FPN.md",
+    "Computer Vision/Paper/Mask R-CNN.md",
+    "Computer Vision/Paper/Faster R-CNN.md",
+    "Computer Vision/Paper/Fast R-CNN.md",
+    "Computer Vision/Paper/DETR.md",
+    "Attached file/Pasted image 20231120211741.png",
     "Spaces/Home",
     "Spaces",
-    "Computer Vision/Paper/Mask R-CNN.md",
-    "Machine Learning/Unsupervised Learning/Generative Model.md",
-    "Computer Vision/Computer Graphics/3D Reconstruction.md",
-    "Machine Learning/Machine Learning.md",
-    "Computer Vision/Paper/NeRF.md",
     "Computer Vision/Neural Network/CNN/desktop.ini",
-    "Computer Vision/Computer Vision.md",
     "Computer Vision/Neural Network/desktop.ini",
     "Computer Vision/Computer Graphics/desktop.ini",
-    "Project/Hyperparameter.md",
     "Computer Vision/desktop.ini",
     "Machine Learning/Supervised Learning/Classification/desktop.ini",
     "Project/desktop.ini",
-    "Machine Learning/Reinforcement Learning/desktop.ini",
-    "Machine Learning/desktop.ini",
-    "Project/Default Setting.md",
-    "Project/Evaluation Metrics.md",
-    "자주 나오는 용어.md",
-    "이상치.md",
-    "Machine Learning/Supervised Learning/Classification/Nearest Neighbors.md",
-    "Project/Project.md",
-    "Project/Segmentation/Custom_Mask R-CNN.md",
-    "Machine Learning/Supervised Learning/Regression/Linear Regression.md",
-    "Machine Learning/Supervised Learning/Classification/Linear Classification.md",
-    "Machine Learning/Supervised Learning/Classification/Hard Negative Mining.md",
-    "Machine Learning/Supervised Learning/Classification/Classification.md",
-    "Machine Learning/Supervised Learning/Ensemble.md",
-    "Machine Learning/Supervised Learning/Decision Trees.md",
-    "Computer Vision/Neural Network/CNN/Pooling.md",
     "Attached file/Pasted image 20231025111909.png",
     "Attached file/Pasted image 20231116225736.png",
     "Attached file/Pasted image 20231116230042.png",
@@ -210,8 +205,6 @@
     "Attached file/Pasted image 20231114143359.png",
     "Attached file/Pasted image 20231114143033.png",
     "Attached file/Pasted image 20231114140838.png",
-    "Attached file/Pasted image 20231114140608.png",
-    "Attached file/Pasted image 20231031163201.png",
     "무제 파일.canvas"
   ]
 }
