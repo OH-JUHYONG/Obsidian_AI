@@ -77,7 +77,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 262.5
+    "width": 262.5,
+    "collapsed": true
   },
   "right": {
     "id": "418eea222befbecd",
@@ -164,7 +165,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "3500b5bc9e8a0e15",
+  "active": "1d88d1506c208a4b",
   "lastOpenFiles": [
     "Computer.md",
     "README.md",
