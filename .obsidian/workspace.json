@@ -77,8 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 262.5,
-    "collapsed": true
+    "width": 262.5
   },
   "right": {
     "id": "418eea222befbecd",
@@ -167,8 +166,10 @@
   },
   "active": "1d88d1506c208a4b",
   "lastOpenFiles": [
-    "().md",
+    "Attached file/Pasted image 20231120211741.png",
+    "Computer Vision/Classification/Translation Invariance.md",
     "README.md",
+    "().md",
     "Computer.md",
     "Spaces/Home",
     "Spaces",
@@ -201,8 +202,6 @@
     "Machine Learning/Supervised Learning/Ensemble.md",
     "Machine Learning/Supervised Learning/Decision Trees.md",
     "Computer Vision/Neural Network/CNN/Pooling.md",
-    "Computer Vision/Neural Network/CNN/FC layer.md",
-    "Computer Vision/Neural Network/CNN/CNN.md",
     "Attached file/Pasted image 20231025111909.png",
     "Attached file/Pasted image 20231116225736.png",
     "Attached file/Pasted image 20231116230042.png",
