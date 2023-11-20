@@ -164,8 +164,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "1d88d1506c208a4b",
+  "active": "3500b5bc9e8a0e15",
   "lastOpenFiles": [
+    "Computer.md",
+    "README.md",
     "Spaces/Home",
     "Spaces",
     "Computer Vision/Paper/Mask R-CNN.md",
@@ -200,7 +202,6 @@
     "Computer Vision/Neural Network/CNN/FC layer.md",
     "Computer Vision/Neural Network/CNN/CNN.md",
     "Computer Vision/Segmentation/Semantic Segmentation.md",
-    "Computer Vision/Segmentation/Instance Segmentation.md",
     "Attached file/Pasted image 20231025111909.png",
     "Attached file/Pasted image 20231116225736.png",
     "Attached file/Pasted image 20231116230042.png",
