@@ -1,0 +1,14 @@
+{
+  "obsidian-emoji-toolbar:emoji-picker:open-picker": [
+    {
+      "modifiers": [],
+      "key": "F1"
+    }
+  ],
+  "editor:insert-callout": [
+    {
+      "modifiers": [],
+      "key": "F3"
+    }
+  ]
+}

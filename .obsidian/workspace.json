@@ -1,0 +1,210 @@
+{
+  "main": {
+    "id": "c7b47be62fe091be",
+    "type": "split",
+    "children": [
+      {
+        "id": "36bbd256bb8aacdb",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1d88d1506c208a4b",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "fe5d2c7b57deba4d",
+    "type": "split",
+    "children": [
+      {
+        "id": "374711d99345e665",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3500b5bc9e8a0e15",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "1b0a6941a50161d0",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "6a27626a07493221",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          },
+          {
+            "id": "9882490a18022e18",
+            "type": "leaf",
+            "state": {
+              "type": "mk-file-view",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 262.5,
+    "collapsed": true
+  },
+  "right": {
+    "id": "418eea222befbecd",
+    "type": "split",
+    "children": [
+      {
+        "id": "c877b2b212a83738",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7bd970fe22ac8efa",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "068107083d346ee2",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "64161ad871adcd1d",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "c10394be3620beb0",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          },
+          {
+            "id": "b49c456ee4e46a7c",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:퀵 스위처 열기": false,
+      "graph:그래프 뷰 열기": false,
+      "canvas:새 캔버스 만들기": false,
+      "daily-notes:오늘의 데일리 노트 열기": false,
+      "templates:템플릿 삽입": false,
+      "command-palette:명령어 팔레트 열기": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
+    }
+  },
+  "active": "1d88d1506c208a4b",
+  "lastOpenFiles": [
+    "Computer Vision/Paper/Mask R-CNN.md",
+    "Machine Learning/Unsupervised Learning/Generative Model.md",
+    "Computer Vision/Computer Graphics/3D Reconstruction.md",
+    "Machine Learning/Machine Learning.md",
+    "Computer Vision/Paper/NeRF.md",
+    "Computer Vision/Neural Network/CNN/desktop.ini",
+    "Computer Vision/Computer Vision.md",
+    "Computer Vision/Neural Network/desktop.ini",
+    "Computer Vision/Computer Graphics/desktop.ini",
+    "Project/Hyperparameter.md",
+    "Computer Vision/desktop.ini",
+    "Machine Learning/Supervised Learning/Classification/desktop.ini",
+    "Project/desktop.ini",
+    "Machine Learning/Reinforcement Learning/desktop.ini",
+    "Machine Learning/desktop.ini",
+    "Spaces/Home",
+    "Spaces",
+    "Project/Default Setting.md",
+    "Project/Evaluation Metrics.md",
+    "자주 나오는 용어.md",
+    "이상치.md",
+    "Machine Learning/Supervised Learning/Classification/Nearest Neighbors.md",
+    "Project/Project.md",
+    "Project/Segmentation/Custom_Mask R-CNN.md",
+    "Machine Learning/Supervised Learning/Regression/Linear Regression.md",
+    "Machine Learning/Supervised Learning/Classification/Linear Classification.md",
+    "Machine Learning/Supervised Learning/Classification/Hard Negative Mining.md",
+    "Machine Learning/Supervised Learning/Classification/Classification.md",
+    "Machine Learning/Supervised Learning/Ensemble.md",
+    "Machine Learning/Supervised Learning/Decision Trees.md",
+    "Computer Vision/Neural Network/CNN/Pooling.md",
+    "Computer Vision/Neural Network/CNN/FC layer.md",
+    "Computer Vision/Neural Network/CNN/CNN.md",
+    "Computer Vision/Segmentation/Semantic Segmentation.md",
+    "Computer Vision/Segmentation/Instance Segmentation.md",
+    "Computer Vision/Segmentation/FCN(Fully Convolutional Network).md",
+    "Attached file/Pasted image 20231025111909.png",
+    "Attached file/Pasted image 20231116225736.png",
+    "Attached file/Pasted image 20231116230042.png",
+    "Attached file/Pasted image 20231114144010.png",
+    "Attached file/Pasted image 20231114144005.png",
+    "Attached file/Pasted image 20231114143359.png",
+    "Attached file/Pasted image 20231114143033.png",
+    "Attached file/Pasted image 20231114140838.png",
+    "Attached file/Pasted image 20231114140608.png",
+    "Attached file/Pasted image 20231031163201.png",
+    "무제 파일.canvas"
+  ]
+}
