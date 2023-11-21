@@ -2,6 +2,11 @@ cf[^0]
 
 ### Segmentation
 
+#### Average Precision(AP)
+- 정확하게 감지하는 능력, 값이 높을 수록 더 정확도가 높음
+- bbox_mAP_50, 75: [IoU](IoU.md) 임계값에서 측정
+	- mAP_50인 경우 IoU가 50% 이상인 경우
+
 #### Pixel Accuracy(PA)
 - pixel의 비율을 올바르게 예측한 비율을 나타냄
 	![[Pasted image 20231116225736.png]]
