@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer Vision/Preprocessing/Weight Cross Entropy.md",
+                "file": "Project/Default Setting.md",
                 "mode": "source",
                 "source": false
               }
@@ -73,12 +73,12 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 262.5,
-    "collapsed": true
+    "width": 262.5
   },
   "right": {
     "id": "418eea222befbecd",
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Computer Vision/Preprocessing/Weight Cross Entropy.md",
+                "file": "Project/Default Setting.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Computer Vision/Preprocessing/Weight Cross Entropy.md",
+                "file": "Project/Default Setting.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Computer Vision/Preprocessing/Weight Cross Entropy.md"
+                "file": "Project/Default Setting.md"
               }
             }
           },
@@ -167,8 +167,8 @@
   },
   "active": "1d88d1506c208a4b",
   "lastOpenFiles": [
-    "Computer Vision/Preprocessing/EDA.md",
     "Computer Vision/Preprocessing/Weight Cross Entropy.md",
+    "Computer Vision/Preprocessing/EDA.md",
     "Computer Vision/Preprocessing/Data annotation.md",
     "Computer Vision/Preprocessing/Learning Rate Scheduler.md",
     "Computer Vision/Preprocessing/JSON.md",

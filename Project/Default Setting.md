@@ -44,6 +44,11 @@
 
 
 
+### [tmux](https://velog.io/@ur-luella/tmux-%EC%82%AC%EC%9A%A9%EB%B2%95)
+- 새로운 세션 생성
+	- _tmux new -s (session name)_ 
+-  세션 다시 시작, 불러오기
+	- _tmux attach -t (session name)
 
 
 
