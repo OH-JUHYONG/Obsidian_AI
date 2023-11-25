@@ -79,6 +79,23 @@ sticker: lucide//plus
 
 ---
 
+### Voting
+
+- Voting은 Bagging과 마찬가지로 여러 개의 분류기가 투표를 통해 최종 예측 결과를 결정하는 방식이라는 점에서 유사
+- Voting은 **서로 다른 알고리즘을 가진 분류기**가 같은 데이터셋을 기반으로 학습되고 결합하는 것, Bagging은 같은 알고리즘 유형의 모델들이 이지만 데이터 샘플링을 다르게 하여 학습 데이터셋이 각각 다름
+
+##### Hard voting
+- 다수의 classifier의 예측 결과값을 ==다수결==로 최종 class를 결정
+	![](Pasted%20image%2020231124213913.png)
+##### Soft voting
+- 다수의 classifier의 예측 결과값간 확률을 ==평균==하여 최종 class를 결정 
+	![](Pasted%20image%2020231124213923.png)
+
+##### Weighted voting
+- 각각의 모델별로 가중치를 주는 것(train dataset에 대해서 각 모델들이 내는 score에 비례해서 줌)
+
+---
+
 ### Boosting
 
 - 가중치를 활용하여 weak classifier를 strong classifier로 만드는 방법

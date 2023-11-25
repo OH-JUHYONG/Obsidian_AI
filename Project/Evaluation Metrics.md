@@ -1,5 +1,27 @@
 cf[^0]
 
+
+### 모델의 분류와 정답
+- **TP**(True Positive): 실제 True인 정답을 True라고 예측(정답)
+- **FP**(False Positive): 실제 False인 정답을 True라고 예측(오답)
+- **FN**(False Negative): 실제 True인 정답을 False라고 예측(오답)
+- **TN**(True Negative): 실제 False인 정답을 False라고 예측(정답)
+	![](Pasted%20image%2020231124174847.png)
+#### Precision
+- **정밀도**: model이 True라고 분류한 것 중에서 실제 True인 것의 비율
+	![](Pasted%20image%2020231124175240.png)
+	- **PPV**(Positive 정답률)
+
+#### Recall
+- **재현율**: 실제 True인 것 중에서 모델이 True라고 예측한 것의 비율
+	![](Pasted%20image%2020231124175410.png)
+
+
+
+
+
+
+
 ### Segmentation
 
 #### Average Precision(AP)

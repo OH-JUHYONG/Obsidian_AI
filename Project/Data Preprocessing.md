@@ -1,0 +1,21 @@
+
+## Imbalanced Data
+
+- 데이터 불균형으로 인한 과적합 문제가 발생
+- 데이터가 불균형하다면 분포도가 높은 클래스에 모델이 가중치를 많이 두고 더 예측하려고 하기 때문에 Accuracy가 높아질 수 있지만, 반대로 분포도가 낮은 값에 대해서 Precision이 낮을 수 있어 분포가 작은 클래스의 재현율이 낮아지는 문제가 발생
+
+### Solution
+#### Undersampling(Downsampling) for majority class
+- 데이터 분포가 높은 값을 낮은 값으로 맞춰주는 작업
+	- 유의미한 데이터만 남길 수 있지만 정보가 유실되는 문제가 생길 수 있음
+
+#### Oversampling for minority class
+- 적은 수의 데이터를 복원 추출해 class 간 데이터 수의 군형을 맞추는 방법
+- 모델이 학습해야하는 데이터 수가 증가하기 때문에 학습 시간이 많이 소요됨
+	- 복원 추출된 데이터가 새로운 데이터가 아니기 때문에 해당 데이터 셋에 오버피팅 될 수 있음
+
+#### Weighting in Loss Function
+- class 별로 loss function에 weight를 주는 방식과 sample 별로 weight를 주는 방식이 존재
+- 둘 다 minority class에 속한 데이터 샘플에 더 집중해 학습할 수 있도록, loss 값에 weight를 부여하는 방법
+
+
