@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Machine Learning/Supervised Learning/Classification/Linear Classification.md",
-                "mode": "preview",
+                "file": "Machine Learning/Supervised Learning/Regression/Linear Regression.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d3814c6f4b1f8e0d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Project/Data Preprocessing.md",
+                "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -94,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Machine Learning/Supervised Learning/Classification/Linear Classification.md",
+                "file": "Project/Data Preprocessing.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Machine Learning/Supervised Learning/Classification/Linear Classification.md",
+                "file": "Project/Data Preprocessing.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +147,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Machine Learning/Supervised Learning/Classification/Linear Classification.md"
+                "file": "Project/Data Preprocessing.md"
               }
             }
           },
@@ -165,10 +178,13 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "a96a1de859d96178",
+  "active": "d3814c6f4b1f8e0d",
   "lastOpenFiles": [
-    "Machine Learning/Supervised Learning/Regression/Linear Regression.md",
+    "Project/Hyperparameter.md",
     "Project/Evaluation Metrics.md",
+    "Project/Default Setting.md",
+    "Machine Learning/Supervised Learning/Classification/Linear Classification.md",
+    "Machine Learning/Supervised Learning/Regression/Linear Regression.md",
     "Machine Learning/Supervised Learning/Ensemble.md",
     "Attached file/Pasted image 20231124213923.png",
     "Attached file/Pasted image 20231124213913.png",
@@ -179,9 +195,6 @@
     "Attached file/Pasted image 20231124174847.png",
     "Project/Project.md",
     "Project/Segmentation/Custom_Mask R-CNN.md",
-    "Project/Hyperparameter.md",
-    "Project/Default Setting.md",
-    "Machine Learning/Supervised Learning/Classification/Linear Classification.md",
     "Computer Vision/Preprocessing/Weight Cross Entropy.md",
     "Computer Vision/Preprocessing/EDA.md",
     "Computer Vision/Preprocessing/Data annotation.md",
