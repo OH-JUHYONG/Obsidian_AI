@@ -10,11 +10,11 @@
 
 ### Transfer Learning
 - 사전에 학습된 모델이 pre-trained model이고, 이를 활용하여 새로운 데이터셋을 학습하는 과정을 transfer learning
-- **domain adaptation**이라 부르기도 함
+- [Domain Adaptation](Domain%20Adaptation.md)이라 부르기도 함
 
 ### Fine tuning
 - 사전 학습된 모든 가중치와 더불어 **downstream task**를 위한 최소한의 가중치를 추가해서 모델을 추가로 학습(미세 조정) 하는 방법
-- 얻고자 하는 결과값이 다르기 때문에 마지막 output layer를 삭제하고 다른 layer를 붙여서 써서 모델을 다시 훈련
+- **얻고자 하는 결과값이 다르기 때문**에 마지막 output layer를 삭제하고 다른 layer를 붙여서 써서 모델을 다시 훈련
 - 이미 잘 학습된 pre-trained model을 사용하는 것은 이미지가 어떻게 생겼는지에 대한 구조를 이해할 수 있기 때문에 학습 알고리즘이 새로운 모델에서도 더 잘 작동하는 것에 도움이 됨, 적은 데이터셋으로도 효과를 극대화 시킬 수 있음
 	ex) 사전 학습 방법인 감정 분석 문제에 사전 학습시킨 가중치와 더불어 텍스트 유사도를 위한 부가적인 가중치를 추가해 텍스트 유사도 문제를 학습하는 것이 미세 조정 방법
 

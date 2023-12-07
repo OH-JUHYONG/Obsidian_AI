@@ -4,35 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "37d20511bb6092e8",
+        "id": "0b0fb7faf10712ab",
         "type": "tabs",
         "children": [
           {
-            "id": "a96a1de859d96178",
+            "id": "1721839463a52384",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Machine Learning/Supervised Learning/Regression/Linear Regression.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d3814c6f4b1f8e0d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Project/Data Preprocessing.md",
+                "file": "Data/Data Preprocessing.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -107,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Project/Data Preprocessing.md",
+                "file": "Data/Data Preprocessing.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Project/Data Preprocessing.md",
+                "file": "Data/Data Preprocessing.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -147,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Project/Data Preprocessing.md"
+                "file": "Data/Data Preprocessing.md"
               }
             }
           },
@@ -178,22 +165,25 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "d3814c6f4b1f8e0d",
+  "active": "1721839463a52384",
   "lastOpenFiles": [
-    "Project/Hyperparameter.md",
-    "Project/Evaluation Metrics.md",
+    "Data/Domain Adaptation.md",
+    "Data/Data Preprocessing.md",
+    "Project/Project.md",
+    "Data",
     "Project/Default Setting.md",
+    "Project/Evaluation Metrics.md",
+    "Project/Hyperparameter.md",
+    "Computer Vision/Computer Vision.md",
     "Machine Learning/Supervised Learning/Classification/Linear Classification.md",
     "Machine Learning/Supervised Learning/Regression/Linear Regression.md",
     "Machine Learning/Supervised Learning/Ensemble.md",
     "Attached file/Pasted image 20231124213923.png",
     "Attached file/Pasted image 20231124213913.png",
-    "Project/Data Preprocessing.md",
     "Attached file/Pasted image 20231124175410.png",
     "Attached file/Pasted image 20231124175240.png",
     "Attached file/Pasted image 20231124175238.png",
     "Attached file/Pasted image 20231124174847.png",
-    "Project/Project.md",
     "Project/Segmentation/Custom_Mask R-CNN.md",
     "Computer Vision/Preprocessing/Weight Cross Entropy.md",
     "Computer Vision/Preprocessing/EDA.md",
@@ -202,7 +192,6 @@
     "Computer Vision/Preprocessing/JSON.md",
     "Computer Vision/Preprocessing/.md",
     "Computer Vision/Object Detection/IoU.md",
-    "Computer Vision/Computer Vision.md",
     "README.md",
     "Attached file/Pasted image 20231121040546.png",
     "Computer Vision/Paper/NeRF.md",
@@ -212,7 +201,6 @@
     "Computer Vision/Neural Network/Backbone Network.md",
     "Computer Vision/Neural Network/CNN/Pooling.md",
     "Computer Vision/Neural Network/CNN/FC layer.md",
-    "Computer Vision/Neural Network/CNN/CNN.md",
     "Project/무제 폴더",
     "Project/무제 폴더",
     "Attached file/Pasted image 20231120211741.png",
@@ -223,7 +211,6 @@
     "Computer Vision/Computer Graphics/desktop.ini",
     "Computer Vision/desktop.ini",
     "Machine Learning/Supervised Learning/Classification/desktop.ini",
-    "Project/desktop.ini",
     "Attached file/Pasted image 20231025111909.png",
     "Attached file/Pasted image 20231116225736.png",
     "무제 파일.canvas"
