@@ -67,7 +67,7 @@ tags:
 - **Eliminating the bias**
 	![[Pasted image 20231028110616.png]]  
 	![[Pasted image 20231028110636.png]]
-	-  bias를 삭제하고 항상 1의 값을 취하는 **dummy feature** 인 _x0_ 를 추가, 이는 효과적으로 bias의 역할을 함
+	- bias를 삭제하고 항상 1의 값을 취하는 **dummy feature** 인 _x0_ 를 추가, 이는 효과적으로 bias의 역할을 함
 
 #### Exapmles
 ##### _NOT_
@@ -98,16 +98,16 @@ tags:
 
 #### Choosing a cost function
 - 데이터 세트가 선형적으로 분리될 수 없는 경우 어떻게 합리적인 학습 기준을 정할 수 있는지
-	- 잘못 분류된 훈련 예제의 수를 최소화하는 것
-	- 
+	- 잘못 분류된 훈련 예제의 수를 최소화하는 것것
 ##### 0-1 loss
 - **loss function**      
 	![[Pasted image 20231028175836.png]]
 	![[Pasted image 20231028175940.png]]
+	- **indicator function**
 	- the error rate
 	 ![[Pasted image 20231028180329.png]]
 	![[Pasted image 20231028181730.png]]
-	- 0-1 loss function은 **SGD 기반 optimization이 불가능**하기 때문에 0-1 loss를 근사하는 연속함수를 고려
+	- 0-1 loss function은 손실을 최소화하는 것은 계산적으로 어렵고, 동일한 정확도를 달성하는 여러 가설을 구분할 수 없음, 또 **SGD 기반 optimization이 불가능**하기 때문에 0-1 loss를 근사하는 연속함수를 고려
 	- **surrogate loss function**: 신뢰하는 손실 함수를 덜 신뢰하지만 최적하기 쉬운 다른 손실 함수로 대체하는 것
 
 ##### [[Linear Regression]]
@@ -119,15 +119,15 @@ tags:
 	- 정답일 수록 error가 커지는 문제
 
 ##### Logistic Activation Function
-- a kind of **sigmoidal**
+- The **logistic function** if a kind of **sigmoidal**
 	![[Pasted image 20231028183908.png]]
-- **log-linear**: logistic nonlinearity을 가진 선형 모델  
+- A linear model with a logistic nonlinearity is known as **log-linear**  
 	![[Pasted image 20231028184004.png]]
 	![[Pasted image 20231028184523.png]]![[Pasted image 20231028184316.png]]
 
 
 ##### Logistic regression
-- **CE**(cross-entropy): 두 확률분포가 얼마나 유사한지를 측정, 두 확률 분포의 차이를 구하기 위해 사용
+- **CE**(cross-entropy): 두 확률분포가 ==얼마나 유사한지를 측정==, 두 확률 분포의 차이를 구하기 위해 사용
 	![[Pasted image 20231028204521.png]]
 	- 더 높은 confidence를 가진 예측에 대해 틀린 경우 더 많은 penalty를 부과
 
@@ -200,14 +200,14 @@ tags:
 	![[Pasted image 20231031161046.png]]
 	- 각 data들의 loss를 gradient를 구해서 평균  --> **batch training**
 	- **SGD**: update the parameters based on the gradient for a single training example, chosen **uniformly at random**
-		- variance 변화 없이 바로 원하는 방향으로 학습(시간이 오래 걸림)되는 GD와 달리 SGD는 학습이 빠름(대신에 variance 커짐, noisy가 발생)
+		- variance 변화 없이 바로 원하는 방향으로 학습(시간이 오래 걸림)되는 GD와 달리 SGD는 학습이 빠름(대신에 **variance 커짐**, **noisy 발생**)
 		- data가 무수히 많은 경우에 효율
 		- SGD is an unbiased estimate of the batch gradient, 각 data들의 gradient에 대한 평균을 구하면 cost function에 대한 미분이랑 같음 
 		![[Pasted image 20231031161645.png]]
 
 
 #### mini-batch
-- GD와 SGD의 중간지점, 표준 학습 방
+- GD와 SGD의 중간지점, 표준 학습 방법
 	- **mini-batch**를 사용함으로써 SGD의 방식의 variance를 줄일 수 있음
 - compute the gradients on a randomly chosen medium-sized set of training example
 	![[Pasted image 20231031162322.png]]
@@ -243,3 +243,47 @@ tags:
 	![[Pasted image 20231031145749.png]]
 	- ex)...입력 데이터를 선형으로 분리할 수 있게 변환해 주는 **신경망**
 
+
+### Separating Hyperplanes
+- 여러 decision boundary에서 좋은 decision boundary는 generalization이 잘되는 것
+- **hyperplane**: w^Tx + b = 0(decision boundary)의해 결정되는 집합 
+	![](Pasted%20image%2020231213110013.png)
+#### Optimal Seperating Hyperplane
+- 두 클래스를 분리하고 두 클래스에서 가장 가까운 지점까지의 거리를 최대화하는 hyperplane, 두 분류기의 **margin**(선과 가장 가까운 양 옆 데이터와의 거리)을 **최대** 
+	![](Pasted%20image%2020231213110640.png)
+
+#### Geometry of Points and Planes
+- **signed distance**: Geometry의 내부는 positive, 외부는 negative, 그리고 Edge에 근접할 수록 0이 되는 형태의 데이터
+	![](Pasted%20image%2020231213111303.png)![](Pasted%20image%2020231213111410.png)
+	![](Pasted%20image%2020231213112726.png)
+	![](Pasted%20image%2020231213113157.png)
+
+#### Maximizing Margin as an Optimization Problem
+##### SVM
+- 두 클래스로부터 최대한 멀리 떨어져 있는 결정 decision boundary를 찾는 분류기로 특정 조건을 만족하는 동시에 클래스를 분류하는 것을 목표  
+- 가장 적절한 decision boundary를 찾기 위해 **hing loss**를 loss function으로 사용, A linear model with hinge loss is known as a ==support vector==(decision boundary에서 가까운 sample) machine(SVM)
+- SVM은 **max-margin** or **large-margin**이라고 부르기도 함, train set가 _선형적으로 구분되는 경우에만 가능_ 하며 _이상치에 매우 민감한 특성_ 을 가지고 있음
+	![](Pasted%20image%2020231213120711.png)
+	![](Pasted%20image%2020231213114320.png)
+
+#### Maximizing Margin for Non-Separable Data Points
+- **𝜉**: slack(여유) variables, 어느 정도의 오차를 허용
+- **Soft-margin SVM**
+	![](Pasted%20image%2020231213121920.png)
+	-  **𝛾**: maring과 slack 총합 간의 trade-off를 조정하는 hyperparameter, 얼마만큼의 slack을 가지고 오차를 허용할 것인지 결
+		- **𝛾** = 0: _w_ = 0을 얻음
+		- **𝛾** = ∞: hard-margin objective
+- 
+	![](Pasted%20image%2020231213121453.png)   
+	![](Pasted%20image%2020231213124921.png) ![](Pasted%20image%2020231213125419.png)
+
+
+### Additive Model
+- 기본적으로 선형회귀 모델은 입력 변수와 출력 변수 간의 관계가 선형이라는 강한 가정을 필요
+- 반면 ==GAN==(Generalized Additive Model)은 **선형성 가정을 완화**하고 **각각의 독립 변수와 종속 변수 사이의 관계를 부드러운 곡선으로 모델링**, 이를 통해 **더욱 복잡한 데이터 패턴을 포착**하는 데 유용
+	- f(x) = s1(x1) + s2(x2) + ... + sp(xp)
+	- f(x): 예측하고자 하는 종속 변수
+	- x1, x2, ... xp: 독립 변수
+	![](Pasted%20image%2020231213142829.png)
+	![](Pasted%20image%2020231213142941.png)
+	

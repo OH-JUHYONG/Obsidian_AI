@@ -31,7 +31,7 @@ tags:
 	- _b_ : 편향(bias)
 	- _y_ : prediction, output
 
-- What is Linear?
+- What is **Linear**?
 	- the target must be predicted as a linear function of the inputs
 	![[Pasted image 20231027005245.png]]
 

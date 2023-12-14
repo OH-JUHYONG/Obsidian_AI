@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Data/Data Preprocessing.md",
+                "file": "Computer Vision/Neural Network/Neural Network.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Data/Data Preprocessing.md",
+                "file": "Computer Vision/Neural Network/Neural Network.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Data/Data Preprocessing.md",
+                "file": "Computer Vision/Neural Network/Neural Network.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,7 +124,7 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true
+                "useHierarchy": false
               }
             }
           },
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Data/Data Preprocessing.md"
+                "file": "Computer Vision/Neural Network/Neural Network.md"
               }
             }
           },
@@ -167,23 +167,29 @@
   },
   "active": "1721839463a52384",
   "lastOpenFiles": [
-    "Data/Domain Adaptation.md",
+    "Machine Learning/Supervised Learning/Regression/Linear Regression.md",
+    "Computer Vision/Neural Network/Neural Network.md",
+    "Machine Learning/Supervised Learning/Classification/Linear Classification.md",
+    "Attached file/Pasted image 20231213163132.png",
+    "Computer Vision/Neural Network/CNN/FC layer.md",
+    "Attached file/Pasted image 20231213162431.png",
+    "Attached file/Pasted image 20231213142941.png",
+    "Attached file/Pasted image 20231213142829.png",
+    "Attached file/Pasted image 20231213125419.png",
+    "Attached file/Pasted image 20231213124921.png",
+    "Attached file/Pasted image 20231213121920.png",
+    "Attached file/Pasted image 20231213121750.png",
+    "Attached file/Pasted image 20231213121453.png",
+    "Attached file/Pasted image 20231213120711.png",
     "Data/Data Preprocessing.md",
+    "Data/Domain Adaptation.md",
     "Project/Project.md",
     "Data",
     "Project/Default Setting.md",
     "Project/Evaluation Metrics.md",
     "Project/Hyperparameter.md",
     "Computer Vision/Computer Vision.md",
-    "Machine Learning/Supervised Learning/Classification/Linear Classification.md",
-    "Machine Learning/Supervised Learning/Regression/Linear Regression.md",
     "Machine Learning/Supervised Learning/Ensemble.md",
-    "Attached file/Pasted image 20231124213923.png",
-    "Attached file/Pasted image 20231124213913.png",
-    "Attached file/Pasted image 20231124175410.png",
-    "Attached file/Pasted image 20231124175240.png",
-    "Attached file/Pasted image 20231124175238.png",
-    "Attached file/Pasted image 20231124174847.png",
     "Project/Segmentation/Custom_Mask R-CNN.md",
     "Computer Vision/Preprocessing/Weight Cross Entropy.md",
     "Computer Vision/Preprocessing/EDA.md",
@@ -193,17 +199,12 @@
     "Computer Vision/Preprocessing/.md",
     "Computer Vision/Object Detection/IoU.md",
     "README.md",
-    "Attached file/Pasted image 20231121040546.png",
     "Computer Vision/Paper/NeRF.md",
     "Machine Learning/Unsupervised Learning/Generative Model.md",
     "Computer Vision/Neural Network/ResNet.md",
-    "Computer Vision/Neural Network/Neural Network.md",
     "Computer Vision/Neural Network/Backbone Network.md",
-    "Computer Vision/Neural Network/CNN/Pooling.md",
-    "Computer Vision/Neural Network/CNN/FC layer.md",
     "Project/무제 폴더",
     "Project/무제 폴더",
-    "Attached file/Pasted image 20231120211741.png",
     "Spaces/Home",
     "Spaces",
     "Computer Vision/Neural Network/CNN/desktop.ini",
@@ -211,8 +212,6 @@
     "Computer Vision/Computer Graphics/desktop.ini",
     "Computer Vision/desktop.ini",
     "Machine Learning/Supervised Learning/Classification/desktop.ini",
-    "Attached file/Pasted image 20231025111909.png",
-    "Attached file/Pasted image 20231116225736.png",
     "무제 파일.canvas"
   ]
 }

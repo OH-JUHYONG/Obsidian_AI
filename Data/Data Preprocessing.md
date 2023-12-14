@@ -42,3 +42,12 @@
 - 둘 다 minority class에 속한 데이터 샘플에 더 집중해 학습할 수 있도록, loss 값에 weight를 부여하는 방법
 
 
+
+## Class 분포
+- train / test label 분포 고려해야 함
+- weight cross entropy
+- 조명 증강
+- pseudo lableing  
+
+- 소프트보팅
+- 하드보팅
